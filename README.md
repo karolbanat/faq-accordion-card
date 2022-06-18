@@ -9,7 +9,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Frontend Mentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [Github Pages Site](https://your-live-site-url.com)
+- Live Site URL: [Github Pages Site](https://karolbanat.github.io/faq-accordion-card/)
 
 ## Author
 
