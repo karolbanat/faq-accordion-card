@@ -1,0 +1,36 @@
+:root {
+	// colors
+	--clr-gradient: linear-gradient(to bottom, hsl(273 75% 66%) 0%, hsl(240 73% 65%) 100%);
+
+	--clr-primary-400: hsl(237 12% 33%);
+	--clr-primary-700: hsl(238 29% 16%);
+
+	--clr-accent-700: hsl(14 88% 65%);
+
+	--clr-neutral-300: hsl(240 5% 91%);
+	--clr-neutral-700: hsl(240 6% 50%);
+
+	--clr-white: hsl(0 0% 100%);
+
+	// font families
+	--ff: 'Kumbh Sans', sans-serif;
+
+	// font sizes
+	--fz-small: 1.4rem;
+	--fz-large: 2.8rem;
+
+	// font weights
+	--fw-400: 400;
+	--fw-700: 700;
+
+	// stage
+	--bg-body: var(--clr-gradient);
+	--heading: var(--clr-primary-700);
+
+	--accordion-heading: var(--clr-primary-400);
+	--accordion-text: var(--clr-neutral-700);
+
+	--divider: var(--clr-neutral-300);
+
+	--shadow: 0 2rem 4rem hsl(0 0% 0% / 0.25);
+}
