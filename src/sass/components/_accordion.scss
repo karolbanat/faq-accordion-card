@@ -24,9 +24,22 @@
 		border: none;
 
 		cursor: pointer;
+
+		@media (min-width: 50em) {
+			transition: color 0.4s ease-in-out;
+
+			&:hover {
+				--clr-accordion-heading: var(--clr-accent-700);
+			}
+
+			& img {
+				margin-right: 1.6rem;
+			}
+		}
 	}
 
 	&__info {
+		display: none;
 		padding-bottom: 2rem;
 		font-size: var(--fz-small);
 		color: var(--clr-accordion-text);
