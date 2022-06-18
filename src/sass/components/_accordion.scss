@@ -5,6 +5,17 @@
 		&.active {
 			--clr-accordion-heading: var(--clr-primary-700);
 			--fw-400: 700;
+
+			transition: color 0.4s ease-in-out;
+
+			& .accordion__btn img {
+				transform: rotate(180deg);
+				transition: transform 0.4s ease-in-out;
+			}
+
+			& .accordion__info {
+				display: block;
+			}
 		}
 	}
 
@@ -41,6 +52,7 @@
 	&__info {
 		display: none;
 		padding-bottom: 2rem;
+
 		font-size: var(--fz-small);
 		color: var(--clr-accordion-text);
 	}
