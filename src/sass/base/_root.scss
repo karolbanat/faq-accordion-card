@@ -25,12 +25,14 @@
 
 	// stage
 	--bg-body: var(--clr-gradient);
-	--heading: var(--clr-primary-700);
 
-	--accordion-heading: var(--clr-primary-400);
-	--accordion-text: var(--clr-neutral-700);
+	--bg-card: var(--clr-white);
+	--clr-heading: var(--clr-primary-700);
 
-	--divider: var(--clr-neutral-300);
+	--clr-accordion-heading: var(--clr-primary-400);
+	--clr-accordion-text: var(--clr-neutral-700);
+
+	--clr-divider: var(--clr-neutral-300);
 
 	--shadow: 0 2rem 4rem hsl(0 0% 0% / 0.25);
 }
