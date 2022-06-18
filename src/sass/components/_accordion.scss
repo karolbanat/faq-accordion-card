@@ -1,0 +1,34 @@
+.accordion {
+	&__item {
+		border-bottom: 1px solid var(--clr-divider);
+
+		&.active {
+			--clr-accordion-heading: var(--clr-primary-700);
+			--fw-400: 700;
+		}
+	}
+
+	&__btn {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		padding-block: 1.6rem;
+		width: 100%;
+
+		font-size: var(--fz-small);
+		font-weight: var(--fw-400);
+
+		color: var(--clr-accordion-heading);
+		background: none;
+		border: none;
+
+		cursor: pointer;
+	}
+
+	&__info {
+		padding-bottom: 2rem;
+		font-size: var(--fz-small);
+		color: var(--clr-accordion-text);
+	}
+}

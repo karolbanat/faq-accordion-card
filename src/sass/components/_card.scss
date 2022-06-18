@@ -1,0 +1,15 @@
+.card {
+	background-color: var(--bg-card);
+
+	background-image: url('../images/bg-pattern-mobile.svg');
+	background-repeat: no-repeat;
+	background-position: top;
+
+	border-radius: var(--borr);
+
+	&__image {
+		margin-inline: auto;
+		margin-top: -11rem;
+		width: 24rem;
+	}
+}
